@@ -22,19 +22,19 @@ public class Main {
 
         //menggunakan method overloading untuk menambahkan informasi tambahan
         dokter.displayInfo("Praktik dokter hanya buka saat weekend");
-
+        dokter.displayInfo("Buka dari jam: 19.00 - 21.00 WIB");
+        
         //menggunakan method getter untuk mendapatkan nama, spesialis, dan tahun pengalaman
-        System.out.println("Nama:" + dokter.getNama());
+        System.out.println("Nama Dokter:" + dokter.getNama());
         System.out.println("Spesialis: " + dokter.getSpesialis());
         System.out.println("Waktu mengabdi (tahun):" + dokter.getTahun_pengalaman() + " tahun");
 
         //menggunakan method setter untuk mengubah spesialis dan tahun pengalaman
         dokter.setSpesialis("Sp.OG");
-        dokter.setTahun_pengalaman(12);
+        dokter.setTahun_pengalaman(58);
 
         //menampilkan informasi setelah perubahan menggunakan method getter
-        System.out.println("Setelah diupdate");
-        System.out.println("Spesialis:" + dokter.getSpesialis());
+        System.out.println("Setelah menginjak masa pensiun");
         System.out.println("Waktu mengabdi (tahun):" + dokter.getTahun_pengalaman() + " tahun");
 
         //menggunakan method overriding untuk menampilkan informasi objek
