@@ -30,11 +30,10 @@ public class Main {
         System.out.println("Waktu mengabdi (tahun):" + dokter.getTahun_pengalaman() + " tahun");
 
         //menggunakan method setter untuk mengubah spesialis dan tahun pengalaman
-        dokter.setSpesialis("Sp.OG");
         dokter.setTahun_pengalaman(58);
 
         //menampilkan informasi setelah perubahan menggunakan method getter
-        System.out.println("Setelah menginjak masa pensiun");
+        System.out.println(" 'Setelah menginjak masa pensiun' ");
         System.out.println("Waktu mengabdi (tahun):" + dokter.getTahun_pengalaman() + " tahun");
 
         //menggunakan method overriding untuk menampilkan informasi objek
