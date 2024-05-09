@@ -43,22 +43,19 @@ public class Dokter {
 
     //method overloading untuk menampilkan informasi dokter tanpa parameter
     public void displayInfo() {
-        System.out.println("Nama: " + nama);
+        System.out.println("Nama Dokter: " + nama);
         System.out.println("Spesialis: " + spesialis);
         System.out.println("Waktu mengabdi (tahun): " + tahun_pengalaman + " tahun");
     }
 
     //method overloading untuk menampilkan informasi dokter dengan parameter tambahan
     public void displayInfo(String additionalInfo) {
-        System.out.println("Nama: " + nama);
-        System.out.println("Spesialis: " + spesialis);
-        System.out.println("Waktu mengabdi (tahun): " + tahun_pengalaman + " tahun");
-        System.out.println("Info tambahan: " + additionalInfo);
+        System.out.println("Informasi tambahan: " + additionalInfo);
     }
 
     //method overriding dari object class untuk menampilkan informasi objek
     @Override
     public String toString() {
-        return "Nama: " + nama + ", Spesialis: " + spesialis + ", Berapa tahun pengalaman: " + tahun_pengalaman + " years";
+        return "Nama: " + nama + ", Spesialis: " + spesialis + ", Berapa tahun pengalaman: " + tahun_pengalaman + " tahun";
     }
 }
