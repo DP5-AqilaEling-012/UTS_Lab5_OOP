@@ -1,5 +1,5 @@
 **Nama: Aqila Eling Febrianti
-Kelas: 221401012**
+NIM: 221401012**
 
 Output Soal Nomor 2 (nim genap)
 *Ketika bernilai true*
